@@ -11,5 +11,5 @@ test:
   steps: []
 run:
   steps:
-    - command: source ~/.asdf/asdf.sh
-    - command: iex
+    - command: "source ~/.asdf/asdf.sh "
+    - command: yes 'a' | mix phx.server
